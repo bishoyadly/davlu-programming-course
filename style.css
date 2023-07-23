@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+
+.header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+a:hover {
+    color: rgb(55, 118, 236);
+    text-decoration: none;
+}
+
+.linkButton {
+    text-decoration: none;
+}
+
+.linkButton:hover {
+    text-decoration: underline;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 500% 500%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
