@@ -1,3 +1,11 @@
+#pageTitle {
+    font-size: 72px;
+    background: linear-gradient(45deg, #09009f, #00ff95);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h1 {
     text-align: center;
 }
@@ -9,6 +17,7 @@ h1 {
 }
 
 a {
+    padding: 10px;
     font-size: 30px;
     color: aliceblue;
 }
@@ -27,6 +36,11 @@ a:hover {
 }
 
 body {
+    border-width: 10px;
+    border-style: double;
+    border-color: lemonchiffon;
+    border-radius: 25px;
+
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 500% 500%;
     animation: gradient 20s ease infinite;
