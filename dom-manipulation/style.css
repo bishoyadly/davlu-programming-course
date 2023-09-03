@@ -1,0 +1,119 @@
+#pageTitle {
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(45deg, #09009f, #00ff95);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Button Styles */
+
+.button1 {
+    position: absolute;
+    left: 45%;
+    height: 70px;
+    width: 225px;
+    background-color: #0881d8;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.button1:before {
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+    transform: translateY(-6px);
+}
+
+.button1:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+.buttonClick {
+    text-shadow: 2px 2px lightcoral;
+}
+
+/* Image Styles */
+
+.image1 {
+    height: 500px;
+    width: 750px;
+    margin-top: 100px;
+    position: absolute;
+    left: 27%;
+    opacity: 0;
+}
+
+.display {
+    opacity: 1;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+.hidden {
+    opacity: 0;
+    animation-name: animation2;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+/* Image Display Animation */
+
+@keyframes animation1 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Image Hide Animation */
+
+@keyframes animation2 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
