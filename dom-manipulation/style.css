@@ -1,11 +1,16 @@
-#pageTitle {
+/* Header Styles */
+.pageTitle {
     text-align: center;
     font-size: 50px;
+}
+
+.header1 {
     background: linear-gradient(45deg, #09009f, #00ff95);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 /* Button Styles */
 
@@ -115,5 +120,40 @@
 
     100% {
         opacity: 0;
+    }
+}
+
+
+/* Body Styles */
+
+.page {
+    border-width: 7px;
+    border-style: double;
+    border-color: lemonchiffon;
+    border-radius: 50px;
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 600% 600%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        border-style: double;
+        background-position: 0% 50%;
+    }
+
+    50% {
+        border-style: dashed;
+        background-position: 100% 50%;
+    }
+
+    75% {
+        border-style: groove;
+    }
+
+    100% {
+        border-style: dotted;
+        background-position: 0% 50%;
     }
 }
