@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap">
-    <link rel="stylesheet" href="style.css" />
-    <title>Guess My Number!</title>
-  </head>
-  <body>
-    <header>
-      <h1>Guess My Number!</h1>
-      <p class="between">(Between 1 and 20)</p>
-      <button class="btn again">Again!</button>
-      <div class="number">?</div>
-    </header>
-    <main>
-      <section class="left">
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
-      </section>
-      <section class="right">
-        <p class="message">Start guessing...</p>
-        <p class="label-score">💯 Score: <span class="score">20</span></p>
-        <p class="label-highscore">
-          🥇 Highscore: <span class="highscore">0</span>
-        </p>
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="style.css" rel="stylesheet" />
+
+  <title>Learning HTML & CSS</title>
+</head>
+
+<body>
+  <h1>JavaScript is fun, but so is HTML & CSS!</h1>
+  <p class="first">
+    You can learn JavaScript without HTML and CSS, but for DOM manipulation
+    it's useful to have some basic ideas of HTML & CSS. You can learn more
+    about it
+    <a href="https://www.w3schools.com/">on w3schools</a>.
+  </p>
+
+  <h2>Another heading</h2>
+  <p class="second">
+    Just another paragraph
+  </p>
+
+  <img id="course-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHnJDLOcdm_0b6N6kNj-1OvO9KhKYgqIy0w&s" alt="javascript-course"/>
+
+  <form id="your-name">
+    <h2>Your name here</h2>
+    <p class="first">Please fill in this form :)</p>
+
+    <input type="text" placeholder="Your name" />
+    <button>OK!</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
