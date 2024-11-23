@@ -2,6 +2,8 @@
 # Web Development With Javascript
 
 https://www.jschallenger.com/
+https://www.codechef.com/practice/javascript
+https://www.codechef.com/learn/course/javascript
 
 Table of contents:
 
