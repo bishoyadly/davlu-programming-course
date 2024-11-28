@@ -1,56 +1,56 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
 body {
-  background-color: rgb(255, 247, 201);
-  font-family: Arial;
-  font-size: 20px;
-  padding: 50px;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
 }
 
-h1 {
-  font-size: 35px;
-  margin-bottom: 25px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
 }
 
-h2 {
-  margin-bottom: 20px;
-  text-align: center;
+#logo {
+  height: 22px;
+  width: 163px;
 }
 
-p {
-  margin-bottom: 20px;
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
 }
 
-.first {
-  color: red;
+.main-nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-#your-name {
-  background-color: rgb(255, 220, 105);
-  border: 5px solid #444;
-  width: 400px;
-  padding: 25px;
-  margin-top: 30px;
-}
-
-input,
-button {
-  padding: 10px;
-  font-size: 16px;
-}
-
-a {
-  background-color: yellowgreen;
-}
-
-#course-image {
-  width: 300px;
-}
-
-#your-name h2 {
-  color: olivedrab;
+.nav-button {
+  color: white;
+  background-color: #e67e22;
+  padding: 12px 24px;
+  border-radius: 9px;
 }

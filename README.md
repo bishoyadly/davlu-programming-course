@@ -7,6 +7,8 @@ https://www.codechef.com/practice/javascript
 
 https://www.codechef.com/learn/course/javascript
 
+https://bishoyadly.github.io/davlu-course-project/
+
 Table of contents:
 
 - HTML & CSS Crash Course
@@ -32,5 +34,6 @@ Table of contents:
 - Coding Challenge #3
 - The Switch Statement
 - Coding Challenge #4
+
 
 
